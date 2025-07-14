@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf6ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#loader {
+  margin: 10px 0;
+  font-weight: bold;
+  display: none;
+}
+
+#weatherResult p {
+  margin: 5px 0;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.forecast-item {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+#history ul {
+  list-style: none;
+  padding: 0;
+}
+
+#history li {
+  cursor: pointer;
+  color: #3498db;
+  margin: 5px 0;
+}
+
+#history li:hover {
+  text-decoration: underline;
+}
